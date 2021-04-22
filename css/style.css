@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 20px;
+}
+
+header, footer{
+    height: 100px;
+    background-color: violet;
+}
+
+main{
+    margin: 20px 0;
+}
+
+/* colonna di sinistra */
+.float-left{
+    float: left;
+}
+
+aside{
+    height: 100%;
+    width: 25%;
+    background-color: blue;
+}
+
+section{
+    margin: 0 20px;
+    height: 100%;
+    width: calc(50% - 40px);
+    background-color: red;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.padding-20{
+    padding: 20px;
+}
